@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		0DF177900BA3453BBD875A84 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4176598B804562B5331AD5 /* libstdc++.dylib */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		20453E53F9F644868472B841 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA41CB36C3854A05A0458E77 /* OpenGLES.framework */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
+		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
+		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
+		473301DF897D4A3297E2569F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9365C9BB539D4DCB94E23A8A /* AudioToolbox.framework */; };
+		5F5A66A49A8E4D6E854039D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D554689B80A14117949CBBB6 /* QuartzCore.framework */; };
+		6F98CA8E23394016A05E86E5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BA5F47F2244A15875106D1 /* GLKit.framework */; };
+		7177D50C237C4FA5A405BB39 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0579EE64DCF4B6FAFE88E98 /* libc++.dylib */; };
+		8C7ABFD59276475097047E0E /* libPhoneRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E60DEB8BBA479EAA751E5B /* libPhoneRTC.a */; };
+		979F8680802F4E65AC78158D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D90AE163524BB083470861 /* Session.swift */; };
+		9800F8C36F48466083E84D5C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FA15D0F06E4102AAF0DB80 /* AVFoundation.framework */; };
+		B138801BB166497D92C2B08B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2813209D04404B6ED92DC /* Config.swift */; };
+		BAB1812BD22F4CF484479E61 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB98BC1F6AF4F61BD62E773 /* CoreLocation.framework */; };
+		BB01EB861CE883D9000AD550 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB01EB851CE883D9000AD550 /* libicucore.tbd */; };
+		BB01EB881CE883E3000AD550 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB01EB871CE883E3000AD550 /* libicucore.A.tbd */; };
+		D107CD462DDA4970A4284F2E /* PCObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26570C01F948FAB26E5355 /* PCObserver.swift */; };
+		D9F000B41CA74B1DB3EC5F06 /* PhoneRTCPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC37561095C4187B472A6DE /* PhoneRTCPlugin.swift */; };
+		DED1B2C2B83B46F299043B88 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB256596F77A4E0694283FE8 /* libsqlite3.0.dylib */; };
+		E39C094EB650412DB97A121A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9B4195A9F4BC7A6F1527B /* CoreVideo.framework */; };
+		E4A11E1D55EF4B0E92C40664 /* SessionDescriptionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A5C9F74AE45E692DFAF5E /* SessionDescriptionDelegate.swift */; };
+		E79EF46C4FFC4654B4AAAD93 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CF4950567C46BB9CDAD7B1 /* CoreMedia.framework */; };
+		FF00FC3BE22A483191DFDE13 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CF3E8EC0FD46CEB93237C3 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006A5C9F74AE45E692DFAF5E /* SessionDescriptionDelegate.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = SessionDescriptionDelegate.swift; path = com.dooble.phonertc/SessionDescriptionDelegate.swift; sourceTree = "<group>"; };
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "demo-phonertc/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		08CF4950567C46BB9CDAD7B1 /* CoreMedia.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		14528A62660E4B15930D8682 /* RTCTypes.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCTypes.h; path = com.dooble.phonertc/RTCTypes.h; sourceTree = "<group>"; };
+		18995736CECC41BA925A27A7 /* RTCDataChannel.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCDataChannel.h; path = com.dooble.phonertc/RTCDataChannel.h; sourceTree = "<group>"; };
+		1A26570C01F948FAB26E5355 /* PCObserver.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PCObserver.swift; path = com.dooble.phonertc/PCObserver.swift; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* demo-phonertc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-phonertc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D4176598B804562B5331AD5 /* libstdc++.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		2D81E08573F24643A6960F91 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCVideoCapturer.h; path = com.dooble.phonertc/RTCVideoCapturer.h; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* demo-phonertc-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "demo-phonertc-Prefix.pch"; sourceTree = "<group>"; };
+		33B4D459A578468381ED4758 /* RTCICEServer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCICEServer.h; path = com.dooble.phonertc/RTCICEServer.h; sourceTree = "<group>"; };
+		408E2BB928A642A9B92846E4 /* RTCVideoSource.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCVideoSource.h; path = com.dooble.phonertc/RTCVideoSource.h; sourceTree = "<group>"; };
+		5369A9BFD00044D49F17654D /* RTCMediaConstraints.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCMediaConstraints.h; path = com.dooble.phonertc/RTCMediaConstraints.h; sourceTree = "<group>"; };
+		611EE063561A4DA6B6A17997 /* RTCVideoRenderer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCVideoRenderer.h; path = com.dooble.phonertc/RTCVideoRenderer.h; sourceTree = "<group>"; };
+		61379FEF4CF64C8B9A741081 /* RTCMediaStream.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCMediaStream.h; path = com.dooble.phonertc/RTCMediaStream.h; sourceTree = "<group>"; };
+		69FA15D0F06E4102AAF0DB80 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		721AB5DF0DBC4468969CD191 /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescriptionDelegate.h; path = com.dooble.phonertc/RTCSessionDescriptionDelegate.h; sourceTree = "<group>"; };
+		74B5B79C0E7642228522A241 /* RTCAudioSource.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCAudioSource.h; path = com.dooble.phonertc/RTCAudioSource.h; sourceTree = "<group>"; };
+		751017F65CA8444BA3015084 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCMediaStreamTrack.h; path = com.dooble.phonertc/RTCMediaStreamTrack.h; sourceTree = "<group>"; };
+		80D90AE163524BB083470861 /* Session.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Session.swift; path = com.dooble.phonertc/Session.swift; sourceTree = "<group>"; };
+		81029FEDDDD14C63918C184F /* RTCAudioTrack.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCAudioTrack.h; path = com.dooble.phonertc/RTCAudioTrack.h; sourceTree = "<group>"; };
+		87E9B4195A9F4BC7A6F1527B /* CoreVideo.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* demo-phonertc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "demo-phonertc-Info.plist"; path = "demo-phonertc/demo-phonertc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		9365C9BB539D4DCB94E23A8A /* AudioToolbox.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		97552074B3164C5F9987ED21 /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionFactory.h; path = com.dooble.phonertc/RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
+		9C6677A1BCCA40EDA4260555 /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCEAGLVideoView.h; path = com.dooble.phonertc/RTCEAGLVideoView.h; sourceTree = "<group>"; };
+		9F2578F324A9422A9C30A2DA /* RTCMediaSource.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCMediaSource.h; path = com.dooble.phonertc/RTCMediaSource.h; sourceTree = "<group>"; };
+		A03778DD9B004AFF80B613FE /* RTCPeerConnection.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnection.h; path = com.dooble.phonertc/RTCPeerConnection.h; sourceTree = "<group>"; };
+		A2BA5F47F2244A15875106D1 /* GLKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A405D88E164440A5B7C9359D /* RTCStatsDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCStatsDelegate.h; path = com.dooble.phonertc/RTCStatsDelegate.h; sourceTree = "<group>"; };
+		A6D52C27C37C487C822CD3D5 /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionDelegate.h; path = com.dooble.phonertc/RTCPeerConnectionDelegate.h; sourceTree = "<group>"; };
+		AB256596F77A4E0694283FE8 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		ADC37561095C4187B472A6DE /* PhoneRTCPlugin.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PhoneRTCPlugin.swift; path = com.dooble.phonertc/PhoneRTCPlugin.swift; sourceTree = "<group>"; };
+		B0579EE64DCF4B6FAFE88E98 /* libc++.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B6CC23B37E984308B0801950 /* RTCPair.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCPair.h; path = com.dooble.phonertc/RTCPair.h; sourceTree = "<group>"; };
+		B9E60DEB8BBA479EAA751E5B /* libPhoneRTC.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libPhoneRTC.a; path = "demo-phonertc/Plugins/com.dooble.phonertc/libPhoneRTC.a"; sourceTree = "<group>"; };
+		BA41CB36C3854A05A0458E77 /* OpenGLES.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BB01EB851CE883D9000AD550 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		BB01EB871CE883E3000AD550 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		BC1C6FA6E146492F86D46175 /* RTCVideoTrack.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCVideoTrack.h; path = com.dooble.phonertc/RTCVideoTrack.h; sourceTree = "<group>"; };
+		C2E2813209D04404B6ED92DC /* Config.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Config.swift; path = com.dooble.phonertc/Config.swift; sourceTree = "<group>"; };
+		D0601ACF3EFC4ADB96E12580 /* RTCI420Frame.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCI420Frame.h; path = com.dooble.phonertc/RTCI420Frame.h; sourceTree = "<group>"; };
+		D10ABD9B156645A099694516 /* RTCICECandidate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCICECandidate.h; path = com.dooble.phonertc/RTCICECandidate.h; sourceTree = "<group>"; };
+		D3D2F0D7793749E2837EC665 /* RTCSessionDescription.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescription.h; path = com.dooble.phonertc/RTCSessionDescription.h; sourceTree = "<group>"; };
+		D554689B80A14117949CBBB6 /* QuartzCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E1CF3E8EC0FD46CEB93237C3 /* CoreAudio.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EAB98BC1F6AF4F61BD62E773 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EE0E3DEE238C4549803C3040 /* Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "com.dooble.phonertc/Bridging-Header.h"; sourceTree = "<group>"; };
+		F26FBA52D3F24B00B935C70A /* RTCStatsReport.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCStatsReport.h; path = com.dooble.phonertc/RTCStatsReport.h; sourceTree = "<group>"; };
+		F29758F8DFC3444A9C3A9098 /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCNSGLVideoView.h; path = com.dooble.phonertc/RTCNSGLVideoView.h; sourceTree = "<group>"; };
+		F775EA29CE54433AAAA35482 /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCOpenGLVideoRenderer.h; path = com.dooble.phonertc/RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "demo-phonertc/config.xml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB01EB881CE883E3000AD550 /* libicucore.A.tbd in Frameworks */,
+				BB01EB861CE883D9000AD550 /* libicucore.tbd in Frameworks */,
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				8C7ABFD59276475097047E0E /* libPhoneRTC.a in Frameworks */,
+				7177D50C237C4FA5A405BB39 /* libc++.dylib in Frameworks */,
+				0DF177900BA3453BBD875A84 /* libstdc++.dylib in Frameworks */,
+				DED1B2C2B83B46F299043B88 /* libsqlite3.0.dylib in Frameworks */,
+				20453E53F9F644868472B841 /* OpenGLES.framework in Frameworks */,
+				E39C094EB650412DB97A121A /* CoreVideo.framework in Frameworks */,
+				E79EF46C4FFC4654B4AAAD93 /* CoreMedia.framework in Frameworks */,
+				FF00FC3BE22A483191DFDE13 /* CoreAudio.framework in Frameworks */,
+				9800F8C36F48466083E84D5C /* AVFoundation.framework in Frameworks */,
+				5F5A66A49A8E4D6E854039D8 /* QuartzCore.framework in Frameworks */,
+				BAB1812BD22F4CF484479E61 /* CoreLocation.framework in Frameworks */,
+				473301DF897D4A3297E2569F /* AudioToolbox.framework in Frameworks */,
+				6F98CA8E23394016A05E86E5 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = "demo-phonertc/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* demo-phonertc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* demo-phonertc-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = "demo-phonertc";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* demo-phonertc-Info.plist */,
+			);
+			name = Resources;
+			path = "demo-phonertc/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB01EB871CE883E3000AD550 /* libicucore.A.tbd */,
+				BB01EB851CE883D9000AD550 /* libicucore.tbd */,
+				B9E60DEB8BBA479EAA751E5B /* libPhoneRTC.a */,
+				B0579EE64DCF4B6FAFE88E98 /* libc++.dylib */,
+				2D4176598B804562B5331AD5 /* libstdc++.dylib */,
+				AB256596F77A4E0694283FE8 /* libsqlite3.0.dylib */,
+				BA41CB36C3854A05A0458E77 /* OpenGLES.framework */,
+				87E9B4195A9F4BC7A6F1527B /* CoreVideo.framework */,
+				08CF4950567C46BB9CDAD7B1 /* CoreMedia.framework */,
+				E1CF3E8EC0FD46CEB93237C3 /* CoreAudio.framework */,
+				69FA15D0F06E4102AAF0DB80 /* AVFoundation.framework */,
+				D554689B80A14117949CBBB6 /* QuartzCore.framework */,
+				EAB98BC1F6AF4F61BD62E773 /* CoreLocation.framework */,
+				9365C9BB539D4DCB94E23A8A /* AudioToolbox.framework */,
+				A2BA5F47F2244A15875106D1 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				ADC37561095C4187B472A6DE /* PhoneRTCPlugin.swift */,
+				1A26570C01F948FAB26E5355 /* PCObserver.swift */,
+				80D90AE163524BB083470861 /* Session.swift */,
+				C2E2813209D04404B6ED92DC /* Config.swift */,
+				006A5C9F74AE45E692DFAF5E /* SessionDescriptionDelegate.swift */,
+				74B5B79C0E7642228522A241 /* RTCAudioSource.h */,
+				81029FEDDDD14C63918C184F /* RTCAudioTrack.h */,
+				18995736CECC41BA925A27A7 /* RTCDataChannel.h */,
+				9C6677A1BCCA40EDA4260555 /* RTCEAGLVideoView.h */,
+				D0601ACF3EFC4ADB96E12580 /* RTCI420Frame.h */,
+				D10ABD9B156645A099694516 /* RTCICECandidate.h */,
+				33B4D459A578468381ED4758 /* RTCICEServer.h */,
+				5369A9BFD00044D49F17654D /* RTCMediaConstraints.h */,
+				9F2578F324A9422A9C30A2DA /* RTCMediaSource.h */,
+				61379FEF4CF64C8B9A741081 /* RTCMediaStream.h */,
+				751017F65CA8444BA3015084 /* RTCMediaStreamTrack.h */,
+				F29758F8DFC3444A9C3A9098 /* RTCNSGLVideoView.h */,
+				F775EA29CE54433AAAA35482 /* RTCOpenGLVideoRenderer.h */,
+				B6CC23B37E984308B0801950 /* RTCPair.h */,
+				A03778DD9B004AFF80B613FE /* RTCPeerConnection.h */,
+				A6D52C27C37C487C822CD3D5 /* RTCPeerConnectionDelegate.h */,
+				97552074B3164C5F9987ED21 /* RTCPeerConnectionFactory.h */,
+				D3D2F0D7793749E2837EC665 /* RTCSessionDescription.h */,
+				721AB5DF0DBC4468969CD191 /* RTCSessionDescriptionDelegate.h */,
+				A405D88E164440A5B7C9359D /* RTCStatsDelegate.h */,
+				F26FBA52D3F24B00B935C70A /* RTCStatsReport.h */,
+				14528A62660E4B15930D8682 /* RTCTypes.h */,
+				2D81E08573F24643A6960F91 /* RTCVideoCapturer.h */,
+				611EE063561A4DA6B6A17997 /* RTCVideoRenderer.h */,
+				408E2BB928A642A9B92846E4 /* RTCVideoSource.h */,
+				BC1C6FA6E146492F86D46175 /* RTCVideoTrack.h */,
+				EE0E3DEE238C4549803C3040 /* Bridging-Header.h */,
+			);
+			name = Plugins;
+			path = "demo-phonertc/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* demo-phonertc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "demo-phonertc" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = "demo-phonertc";
+			productName = "demo-phonertc";
+			productReference = 1D6058910D05DD3D006BFB54 /* demo-phonertc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 730;
+				LastUpgradeCheck = 510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "demo-phonertc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* demo-phonertc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */,
+				3047A5141AB8059700498E2A /* build.xcconfig in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				D9F000B41CA74B1DB3EC5F06 /* PhoneRTCPlugin.swift in Sources */,
+				D107CD462DDA4970A4284F2E /* PCObserver.swift in Sources */,
+				979F8680802F4E65AC78158D /* Session.swift in Sources */,
+				B138801BB166497D92C2B08B /* Config.swift in Sources */,
+				E4A11E1D55EF4B0E92C40664 /* SessionDescriptionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo-phonertc/demo-phonertc-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "demo-phonertc/demo-phonertc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/demo-phonertc/Plugins/com.dooble.phonertc\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "demo-phonertc";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Plugins/com.dooble.phonertc/Bridging-Header.h";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo-phonertc/demo-phonertc-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "demo-phonertc/demo-phonertc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/demo-phonertc/Plugins/com.dooble.phonertc\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "demo-phonertc";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Plugins/com.dooble.phonertc/Bridging-Header.h";
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "demo-phonertc";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "demo-phonertc";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "demo-phonertc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "demo-phonertc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
